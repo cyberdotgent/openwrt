@@ -129,7 +129,7 @@ define Device/Default
   endif
   KERNEL := kernel-bin
   KERNEL_INSTALL := 1
-  KERNEL_NAME := bzImage
+  KERNEL_NAME := zImage
   ifeq ($(CONFIG_ISO_IMAGES),y)
     ARTIFACTS-$$(CONFIG_GRUB_IMAGES) += image.iso
     ARTIFACTS-$$(CONFIG_GRUB_EFI_IMAGES) += image-efi.iso
